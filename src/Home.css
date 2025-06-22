@@ -1,0 +1,52 @@
+.home-section {
+  padding: 0 0 40px 0;
+}
+.home-banner {
+  background: linear-gradient(90deg, #e0f7fa 0%, #fff 100%);
+  text-align: center;
+  padding: 48px 16px 32px 16px;
+}
+.home-banner h2 {
+  font-size: 2.2rem;
+  color: #1e90ff;
+  margin-bottom: 12px;
+  font-family: 'Roboto', Arial, sans-serif;
+}
+.home-banner p {
+  font-size: 1.2rem;
+  color: #444;
+}
+.home-features {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  margin-top: 32px;
+  flex-wrap: wrap;
+}
+.feature {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+  padding: 24px 20px 18px 20px;
+  width: 260px;
+  text-align: center;
+  border: 1.5px solid #e0e0e0;
+}
+.feature h3 {
+  color: #1e90ff;
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+}
+.feature p {
+  color: #555;
+  font-size: 1rem;
+}
+@media (max-width: 900px) {
+  .home-features {
+    gap: 16px;
+  }
+  .feature {
+    width: 90vw;
+    max-width: 320px;
+  }
+}
