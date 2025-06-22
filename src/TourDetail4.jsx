@@ -37,7 +37,7 @@ function TourDetail4() {
   return (
     <div className="tour-detail-page">
       <button className="back-btn" onClick={() => window.location.href = '/'} style={{position:'absolute',top:18,right:18,zIndex:10}}>← Quay lại</button>
-      <div className="tour-detail-header">
+      <div className="tour-detail-header" id="tour-detail-cover">
         <h1>Tour Ngoại Thành Đà Lạt 1 Ngày – Khám Phá Thiên Nhiên & Sống Ảo Cực Chất</h1>
         <p>Khám phá những địa điểm check-in hot nhất & mới lạ tại Đà Lạt chỉ trong 1 ngày!</p>
       </div>

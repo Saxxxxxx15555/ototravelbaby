@@ -37,7 +37,7 @@ function TourDetail() {
   return (
     <div className="tour-detail-page">
       <button className="back-btn" onClick={() => window.location.href = '/'} style={{position:'absolute',top:18,right:18,zIndex:10}}>← Quay lại</button>
-      <div className="tour-detail-cover">
+      <div className="tour-detail-cover" id="tour-detail-cover">
         <img src="/noithanhdalat.jpg" alt="Ảnh đại diện Tour Đà Lạt" className="tour-detail-cover-img" style={{width:'100%',maxHeight:'320px',objectFit:'cover',objectPosition:'center',borderRadius:'18px',marginBottom:'24px',boxShadow:'0 4px 24px rgba(0,0,0,0.12)'}} />
       </div>
       <div className="tour-detail-header">

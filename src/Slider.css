@@ -59,10 +59,10 @@
   opacity: 1;
 }
 .slider-btn.prev {
-  left: 18px;
+  display: none;
 }
 .slider-btn.next {
-  right: 18px;
+  display: none;
 }
 @media (max-width: 900px) {
   .slider-container, .slider-img {

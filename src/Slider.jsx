@@ -6,7 +6,7 @@ const images = [
   '/nen.jpg',
   '/thienduongsanmay.jpg',
   '/nhaga.jpg',
-  '/tuibunquatgio.jpg',
+  '/nongtraicun.jpg',
 ];
 
 function Slider() {

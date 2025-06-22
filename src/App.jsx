@@ -46,14 +46,14 @@ function App() {
     <div className="container">
       <FloatingContact />
       <nav className="navbar">
+        <div className="logo-wrap">
+          <img src="logo.jpg" alt="Ôtô travel Đà Lạt logo" className="logo-img" />
+          <span className="logo-text">Ôtô travel Đà Lạt</span>
+        </div>
         <input type="checkbox" id="nav-toggle" className="nav-toggle" />
         <label htmlFor="nav-toggle" className="nav-toggle-label">
           <span></span>
         </label>
-        <div className="logo-wrap">
-          <img src="/logo.jpg" alt="Ôtô travel Đà Lạt logo" className="logo-img" />
-          <span className="logo-text">Ôtô travel Đà Lạt</span>
-        </div>
         <ul className="nav-links">
           <li><a href="#" onClick={() => { setPage('home'); setShowTourDetail(0); setShowServiceAirport(false); setShowServiceDalatNhaTrang(false); setShowServiceDalatMuine(false); setShowServiceDalatBaoloc(false); setShowServiceDalatSaigon(false); setTimeout(() => window.scrollTo({top:0,behavior:'smooth'}), 100); closeNav(); }}>Trang Chủ</a></li>
           <li><a href="#" onClick={() => { setPage('home'); setShowTourDetail(0); setShowServiceAirport(false); setShowServiceDalatNhaTrang(false); setShowServiceDalatMuine(false); setShowServiceDalatBaoloc(false); setShowServiceDalatSaigon(false); scrollToSection('tour-section'); closeNav(); }}>Tour Du Lịch</a></li>

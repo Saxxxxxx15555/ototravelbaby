@@ -32,7 +32,7 @@ function TourDetail3() {
   return (
     <div className="tour-detail-page">
       <button className="back-btn" onClick={() => window.location.href = '/'} style={{position:'absolute',top:18,right:18,zIndex:10}}>← Quay lại</button>
-      <div className="tour-detail-header">
+      <div className="tour-detail-header" id="tour-detail-cover">
         <h1>Tour Săn Mây Đà Lạt – Lưu Giữ Khoảnh Khắc Đáng Nhớ</h1>
         <p>Săn mây – không chỉ là du lịch, mà là một trải nghiệm cảm xúc. Giữa biển mây và ánh nắng đầu tiên trong ngày, bạn sẽ thấy mình thật bình yên – tự do – trọn vẹn.</p>
       </div>

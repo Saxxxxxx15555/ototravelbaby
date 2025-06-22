@@ -32,7 +32,7 @@ function TourDetail5() {
   return (
     <div className="tour-detail-page">
       <button className="back-btn" onClick={() => window.location.href = '/'} style={{position:'absolute',top:18,right:18,zIndex:10}}>← Quay lại</button>
-      <div className="tour-detail-header">
+      <div className="tour-detail-header" id="tour-detail-cover">
         <h1>Tour Tâm Linh Đà Lạt – Thanh Tịnh Tâm Hồn</h1>
         <p>Khám Phá Văn Hoá Phật Giáo Phố Núi</p>
       </div>
